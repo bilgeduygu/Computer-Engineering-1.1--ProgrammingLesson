@@ -1,12 +1,17 @@
-#include <stdio.h>
+#include <stdio.h> 
 
 int main()
 {
-	int a=25;
+	int x=25;
+	int mod=1;
+	int number1=x;
+	int number2=2;
 	
-	while(a<100)
+	mod=number1%number2;
+	
+	while(x<100)
 	{
-		printf("%d\n",a);
-		a=a+2;
+		printf("%d",x);
+		
 	}
 }
